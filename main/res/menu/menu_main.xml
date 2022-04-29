@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.xabierclaver.bicicletApp.com.xabierclaver.TestListMaterialMenuFloatButton.MainActivity">
+
+    <item
+        android:id="@+id/abrirListadoComp"
+        android:title="Listado Componentes">
+    </item>
+
+    <item
+        android:id="@+id/abrirAñadirCompBici"
+        android:title="Añadir Componente a Bici">
+    </item>
+
+</menu>

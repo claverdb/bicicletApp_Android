@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_componente_bici"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddComponenteBici">
+
+    <Spinner
+        android:id="@+id/spBicicletas"
+        android:layout_width="184dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.286" />
+
+    <Spinner
+        android:id="@+id/spComponentes"
+        android:layout_width="184dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <Button
+        android:id="@+id/btnJuntar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/a_adir_componente_a_bici"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spComponentes" />
+
+    <TextView
+        android:id="@+id/textspbici"
+        android:layout_width="97dp"
+        android:layout_height="28dp"
+        android:text="Bicicletas"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/spBicicletas"
+        app:layout_constraintStart_toStartOf="@+id/spBicicletas" />
+
+    <TextView
+        android:id="@+id/textspcomp"
+        android:layout_width="117dp"
+        android:layout_height="28dp"
+        android:text="Componentes"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/spComponentes"
+        app:layout_constraintStart_toStartOf="@+id/spComponentes" />
+
+    <EditText
+        android:id="@+id/numspcomp"
+        android:layout_width="186dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/zero"
+        app:layout_constraintBottom_toTopOf="@+id/btnJuntar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spComponentes" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">bicicletApp</string>
+    <string name="large_text">largo</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="change_name">Change Name</string>
+    <string name="insertar_modelo">Modelo</string>
+    <string name="descripcion">Descripción</string>
+    <string name="precio">Precio</string>
+    <string name="tiempo_produccion">Tiempo Producción (en Horas)</string>
+    <string name="anadir_bici">Añadir Bicicleta</string>
+    <string name="insertar_tipo">tipo</string>
+    <string name="marca">Marca</string>
+    <string name="localizacion">Localización</string>
+    <string name="anadir_componente">Añadir componente</string>
+    <string name="zero">0</string>
+    <string name="a_adir_componente_a_bici">Añadir componente a bici</string>
+    <string name="cantidad">Cantidad</string>
+</resources>
